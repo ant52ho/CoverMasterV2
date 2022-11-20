@@ -22,6 +22,7 @@ export const ModifyDoc = class ModifyDoc extends React.Component {
             paragraphLoop: true,
             linebreaks: true,
           });
+          // this function sets all special fields to something
           doc.setData({
             first_name: "John",
             last_name: "Doe",
